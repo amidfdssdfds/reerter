@@ -3,7 +3,7 @@
 require_once "vendor/autoload.php";
 
 try {
-    $token = 'YOUR_BOT_API_TOKEN';
+    $token = '201105405:AAHJ7ScIBhd8CCjZTDkrTY3vYgz10z4nSMg';
     $bot = new \TelegramBot\Api\Client($token);
 
     $bot->inlineQuery(function (\TelegramBot\Api\Types\Inline\InlineQuery $inlineQuery) use ($bot) {
